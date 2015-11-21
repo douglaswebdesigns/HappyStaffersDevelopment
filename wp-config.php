@@ -37,7 +37,6 @@ define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
-//** This will be modified for the happystaffers dot com website */
 /**#@+
  * Authentication Unique Keys and Salts.
  *
@@ -78,8 +77,7 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
-define('FS_METHOD', 'direct');
+define('WP_DEBUG', false);define('FS_METHOD', 'direct');
 
 /* That's all, stop editing! Happy blogging. */
 
