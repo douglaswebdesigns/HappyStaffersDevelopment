@@ -38,7 +38,7 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 /**#@+
- * Authentication Unique Keys and Salts.
+ * Authentications Unique Keys and Salts.
  *
  * Change these to different unique phrases!
  * You can generate these using the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
@@ -77,7 +77,8 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);define('FS_METHOD', 'direct');
+define('WP_DEBUG', false);
+define('FS_METHOD', 'direct');
 
 /* That's all, stop editing! Happy blogging. */
 
